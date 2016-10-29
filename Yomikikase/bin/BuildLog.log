@@ -1,7 +1,7 @@
 VstoneMagic Build&Execute Message Log
-BuildStart time:2016/10/28 15:55:34
+BuildStart time:2016/10/29 12:37:21
 ビルドを開始します。
-C:\Program Files (x86)\VstoneMagic\jdk\bin\javac.exe  -d "C:\Users\hasegawa\Documents\VstoneMagic\WorkSpace\Yomikikase\bin"  -g  -cp ".;C:\Users\hasegawa\VstoneMagicData\jar\core-2.2.jar;C:\Users\hasegawa\VstoneMagicData\jar\gson-2.6.1.jar;C:\Users\hasegawa\VstoneMagicData\jar\javase-2.2.jar;C:\Users\hasegawa\VstoneMagicData\jar\jna-4.1.0.jar;C:\Users\hasegawa\VstoneMagicData\jar\opencv-310.jar;C:\Users\hasegawa\VstoneMagicData\jar\sotalib.jar;C:\Users\hasegawa\VstoneMagicData\jar\SRClientHelper.jar"  -encoding UTF-8 "C:\Users\hasegawa\Documents\VstoneMagic\WorkSpace\Yomikikase\src\main\main.java" "C:\Users\hasegawa\Documents\VstoneMagic\WorkSpace\Yomikikase\src\jp\co\mysota\mymain.java" 
+C:\Program Files (x86)\VstoneMagic\jdk\bin\javac.exe  -d "C:\Users\hasegawa\Documents\GitHub\sota_programing_hasegawa\Yomikikase\bin"  -g  -cp ".;C:\Users\hasegawa\VstoneMagicData\jar\core-2.2.jar;C:\Users\hasegawa\VstoneMagicData\jar\gson-2.6.1.jar;C:\Users\hasegawa\VstoneMagicData\jar\javase-2.2.jar;C:\Users\hasegawa\VstoneMagicData\jar\jna-4.1.0.jar;C:\Users\hasegawa\VstoneMagicData\jar\opencv-310.jar;C:\Users\hasegawa\VstoneMagicData\jar\sotalib.jar;C:\Users\hasegawa\VstoneMagicData\jar\SRClientHelper.jar"  -encoding UTF-8 "C:\Users\hasegawa\Documents\GitHub\sota_programing_hasegawa\Yomikikase\src\main\main.java" "C:\Users\hasegawa\Documents\GitHub\sota_programing_hasegawa\Yomikikase\src\jp\co\mysota\kumonoito.java" "C:\Users\hasegawa\Documents\GitHub\sota_programing_hasegawa\Yomikikase\src\jp\co\mysota\mgirl.java" 
 
 正常にコンパイルできました。
 
@@ -14,80 +14,14 @@ main/を追加中です(入=0)(出=0)(0%格納されました)
 main/main$GlobalVariable.classを追加中です(入=1168)(出=594)(49%収縮されました)
 main/main.classを追加中です(入=2179)(出=1179)(45%収縮されました)
 jp/co/mysota/を追加中です(入=0)(出=0)(0%格納されました)
-jp/co/mysota/kumonoito.classを追加中です(入=12716)(出=4736)(62%収縮されました)
-jp/co/mysota/mymain.classを追加中です(入=2190)(出=1152)(47%収縮されました)
+jp/co/mysota/kumonoito.classを追加中です(入=12731)(出=4749)(62%収縮されました)
+jp/co/mysota/mgirl.classを追加中です(入=13403)(出=4811)(64%収縮されました)
+jp/co/mysota/mymain.classを追加中です(入=2361)(出=1267)(46%収縮されました)
 
 jarファイルを作成しました。
 
 送信ファイルの上書き確認
 
-スタートアップアプリケーションの停止
-echo "STOP_STARTUP" > /home/vstone/vstonemagic/menu.fifoロボットのSFTPへ接続します。
-192.168.1.48@root
-.
-
-
-ファイルの転送
-ロボットにファイルを転送します。
-Connect to 192.168.1.48@root...接続しました。
-ファイルの転送を開始します。
-Send':'Yomikikase.jar' completed
-
-
 アプリケーション登録用のアーカイブファイルを作成
 .
 ビルドが完了しました。
-
-
-jarファイルの実行
-ロボットのSSHへ接続します。
-192.168.1.48@root
-java -Dfile.encoding=UTF8 -Djava.library.path=/usr/local/share/OpenCV/java/  -Xdebug -Xrunjdwp:transport=dt_socket,server=y,address=8765 -jar Yomikikase.jar 2>&1 &ファイルの転送が完了しました。java -Dfile.encoding=UTF8 -Djava.library.path=/usr/local/share/OpenCV/java/  -Xdebug -Xrunjdwp:transport=dt_socket,server=y,address=8765 -jar Yomikikase.jar 2>&1 &
-[1;32mroot@edison:~$[m java -Dfile.encoding=UTF8 -Djava.library.path=/usr/local/share/OpenCV/java/  -Xdebug -Xrunjdwp:transport=dt_socket,server=y,address=8765 -jar Yomikikase.jar 2>&1 &
-[1] 5312
-[1;32mroot@edison:~$[m デバッグの準備ができました。
-
-jdbの実行
-デバッガを起動します。
-C:\Program Files (x86)\VstoneMagic\jdk\bin\jdb.exe -connect com.sun.jdi.SocketAttach:hostname=192.168.1.48,port=8765
-Listening for transport dt_socket at address: 8765
-捕捉されないjava.lang.Throwableの設定遅延した捕捉されないjava.lang.Throwableの設定jdbの初期化中...デバッグ実行のスタンバイができました。
-> VMが開始されました: 現在のコール・スタックにフレームがありません[Info][SpeechRecog]SpeechRecog
-[Info][CRobotSock]Connected server
-[Info][CRobotMotion]MasterCtrlPeriod 16666
-[Info][MotionAsSotaWish][Say][scene:talk]はじめるよ．何を読もうか．蜘蛛の糸があります．または，終わりと言ってください．
-[Info][TextToSpeechSota][TTS_USE_CACHE] /var/sota/tts//1477637232821.wav
-[Info][CPlayWave]Play /var/sota/tts//1477637232821.wav
-[Info][MotionAsSotaWish]play 7156
-[Info][MotionAsSotaWish][play][talk] [6756sec]
-[Info][SpeechRecog][getRecognition][Score:0.7806861400604248]もう一度いちど
-[Info][SpeechRecog][getRecognition][Score:0.7586856683095295]もう一度
-[Info][SpeechRecog][getRecognition][Score:0.7843151092529297]もう
-[Info][SpeechRecog][getRecognition][Score:0.8063155810038248]もういちど
-[Info][SpeechRecog][getRecognition][Score:0.7685534159342448]いちど
-[Info][SpeechRecog][getRecognition][Score:0.7465480963389078]もう一度もう一度
-[Info][SpeechRecog][getRecognition][Score:0.7721775372823079]もうもう一度
-[Info][MotionAsSotaWish][Say][scene:talk]何を読もうか．蜘蛛の糸があります．または，終わりと言ってください．
-[Info][TextToSpeechSota][get:何を読もうか．蜘蛛の糸があります．または，終わりと言ってください．][speechRate:11][pitch:13]][intonation:11]
-[Info][CPlayWave]Play /dev/shm/wavtemptts0.wav
-[Info][MotionAsSotaWish]play 5977
-[Info][MotionAsSotaWish][play][talk] [5577sec]
-[Info][SpeechRecog][getRecognition][Score:0.7165711720784504]終わり
-[Info][SpeechRecog][getRecognition][Score:0.6787056128184]笑
-[Info][SpeechRecog][getRecognition][Score:0.6805886427561442]こわい
-[Info][SpeechRecog][getRecognition][Score:0.6784041722615559]わい
-[Info][SpeechRecog][getRecognition][Score:0.6893808046976725]怖い
-[Info][SpeechRecog][getRecognition][Score:0.8237288792928059]ｙ
-[Info][SpeechRecog][getRecognition][Score:0.6822592417399088]お笑い
-[Info][SpeechRecog][getRecognition][Score:0.6802527109781901]わーい
-[Info][SpeechRecog][getRecognition][Score:0.6844712893168131]尾張
-[Info][SpeechRecog][getRecognition][Score:0.6856374740600586]おわり
-[Info][MotionAsSotaWish][Say][scene:talk]おわります．
-[Info][TextToSpeechSota][TTS_USE_CACHE] /var/sota/tts//1477636539886.wav
-[Info][CPlayWave]Play /var/sota/tts//1477636539886.wav
-[Info][MotionAsSotaWish]play 1133
-[Info][MotionAsSotaWish][play][talk] [733sec]
-main[1] > アプリケーションが終了しましたexitexit
-logout
-
-ロボットとの通信を切断しました。

@@ -20,12 +20,12 @@ public class kumonoito
 	}																													//@<EndOfBlock/>
 
 	//@<Separate/>
-	public void talk()																									//@<BlockInfo>jp.vstone.block.func,80,112,528,336,False,23,@</BlockInfo>
+	public void talk()																									//@<BlockInfo>jp.vstone.block.func,80,112,528,336,False,22,@</BlockInfo>
 	throws SpeechRecogAbortException {
 		if(!GlobalVariable.TRUE) throw new SpeechRecogAbortException("default");
 
 																														//@<OutputChild>
-		GlobalVariable.sotawish.Say((String)"芥川龍之介　の　蜘蛛の糸　を読みます．",MotionAsSotaWish.MOTION_TYPE_TALK,(int)11,(int)13,(int)11);	//@<BlockInfo>jp.vstone.block.talk.say,144,112,144,112,False,22,@</BlockInfo>
+		GlobalVariable.sotawish.Say((String)"青空文庫　芥川龍之介　の　蜘蛛の糸　を読みます．",MotionAsSotaWish.MOTION_TYPE_TALK,(int)11,(int)13,(int)11);	//@<BlockInfo>jp.vstone.block.talk.say,144,112,144,112,False,23,@</BlockInfo>
 																														//@<EndOfBlock/>
 		pose = new CRobotPose();																						//@<BlockInfo>jp.vstone.block.pose,208,112,208,112,False,21,コメント@</BlockInfo>
 		pose.SetPose(	new Byte[]{1,2,3,4,5,6,7,8},
