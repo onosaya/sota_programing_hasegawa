@@ -1,19 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <BuildOmitCheck xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <javacPath>C:\Program Files (x86)\VstoneMagic\jdk\bin\javac.exe</javacPath>
-  <argument> -d "C:\Users\hasegawa\Documents\VstoneMagic\WorkSpace\Yomikikase\bin"  -g  -cp ".;C:\Users\hasegawa\VstoneMagicData\jar\core-2.2.jar;C:\Users\hasegawa\VstoneMagicData\jar\gson-2.6.1.jar;C:\Users\hasegawa\VstoneMagicData\jar\javase-2.2.jar;C:\Users\hasegawa\VstoneMagicData\jar\jna-4.1.0.jar;C:\Users\hasegawa\VstoneMagicData\jar\opencv-310.jar;C:\Users\hasegawa\VstoneMagicData\jar\sotalib.jar;C:\Users\hasegawa\VstoneMagicData\jar\SRClientHelper.jar"  -encoding UTF-8 </argument>
+  <argument> -d "C:\Users\hasegawa\Documents\GitHub\sota_programing_hasegawa\Yomikikase\bin"  -g  -cp ".;C:\Users\hasegawa\VstoneMagicData\jar\core-2.2.jar;C:\Users\hasegawa\VstoneMagicData\jar\gson-2.6.1.jar;C:\Users\hasegawa\VstoneMagicData\jar\javase-2.2.jar;C:\Users\hasegawa\VstoneMagicData\jar\jna-4.1.0.jar;C:\Users\hasegawa\VstoneMagicData\jar\opencv-310.jar;C:\Users\hasegawa\VstoneMagicData\jar\sotalib.jar;C:\Users\hasegawa\VstoneMagicData\jar\SRClientHelper.jar"  -encoding UTF-8 </argument>
   <files>
     <FileData>
       <path>jp\co\mysota\mymain.java</path>
-      <timestamp>2016-10-28T15:55:33.3188742+09:00</timestamp>
-      <size>5240</size>
-      <ignore>false</ignore>
+      <timestamp>2016-10-29T12:21:34.1737391+09:00</timestamp>
+      <size>6599</size>
+      <ignore>true</ignore>
     </FileData>
     <FileData>
       <path>jp\co\mysota\kumonoito.java</path>
-      <timestamp>2016-10-28T15:35:22.940199+09:00</timestamp>
-      <size>16117</size>
-      <ignore>true</ignore>
+      <timestamp>2016-10-29T12:37:21.261408+09:00</timestamp>
+      <size>16132</size>
+      <ignore>false</ignore>
+    </FileData>
+    <FileData>
+      <path>jp\co\mysota\mgirl.java</path>
+      <timestamp>2016-10-29T12:37:21.2504113+09:00</timestamp>
+      <size>16669</size>
+      <ignore>false</ignore>
     </FileData>
   </files>
 </BuildOmitCheck>
