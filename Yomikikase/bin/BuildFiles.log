@@ -1,25 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <BuildOmitCheck xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <javacPath>C:\Program Files (x86)\VstoneMagic\jdk\bin\javac.exe</javacPath>
-  <argument> -d "C:\Users\hasegawa\Documents\GitHub\sota_programing_hasegawa\Yomikikase\bin"  -g  -cp ".;C:\Users\hasegawa\VstoneMagicData\jar\core-2.2.jar;C:\Users\hasegawa\VstoneMagicData\jar\gson-2.6.1.jar;C:\Users\hasegawa\VstoneMagicData\jar\javase-2.2.jar;C:\Users\hasegawa\VstoneMagicData\jar\jna-4.1.0.jar;C:\Users\hasegawa\VstoneMagicData\jar\opencv-310.jar;C:\Users\hasegawa\VstoneMagicData\jar\sotalib.jar;C:\Users\hasegawa\VstoneMagicData\jar\SRClientHelper.jar"  -encoding UTF-8 </argument>
+  <argument> -d "C:\Users\hasegawa\Documents\GitHub\sota_programing_hasegawa\Yomikikase\bin"  -g  -cp ".;C:\Users\hasegawa\VstoneMagicData\jar\commons-codec-1.10.jar;C:\Users\hasegawa\VstoneMagicData\jar\core-2.2.jar;C:\Users\hasegawa\VstoneMagicData\jar\gson-2.6.1.jar;C:\Users\hasegawa\VstoneMagicData\jar\javase-2.2.jar;C:\Users\hasegawa\VstoneMagicData\jar\jna-4.1.0.jar;C:\Users\hasegawa\VstoneMagicData\jar\opencv-310.jar;C:\Users\hasegawa\VstoneMagicData\jar\SotaAppManager.jar;C:\Users\hasegawa\VstoneMagicData\jar\sotalib.jar;C:\Users\hasegawa\VstoneMagicData\jar\sotamotionlib.jar;C:\Users\hasegawa\VstoneMagicData\jar\SRClientHelper.jar"  -encoding UTF-8 </argument>
   <files>
     <FileData>
       <path>jp\co\mysota\mymain.java</path>
-      <timestamp>2016-10-29T12:21:34.1737391+09:00</timestamp>
-      <size>6599</size>
+      <timestamp>2016-10-31T12:54:59.9033649+09:00</timestamp>
+      <size>7570</size>
       <ignore>true</ignore>
     </FileData>
     <FileData>
-      <path>jp\co\mysota\kumonoito.java</path>
-      <timestamp>2016-10-29T12:37:21.261408+09:00</timestamp>
-      <size>16132</size>
+      <path>jp\co\mysota\rabit.java</path>
+      <timestamp>2016-10-31T13:10:44.4760065+09:00</timestamp>
+      <size>21172</size>
       <ignore>false</ignore>
     </FileData>
     <FileData>
       <path>jp\co\mysota\mgirl.java</path>
-      <timestamp>2016-10-29T12:37:21.2504113+09:00</timestamp>
+      <timestamp>2016-10-31T12:22:28.4950173+09:00</timestamp>
       <size>16669</size>
-      <ignore>false</ignore>
+      <ignore>true</ignore>
+    </FileData>
+    <FileData>
+      <path>jp\co\mysota\kumonoito.java</path>
+      <timestamp>2016-10-31T12:23:55.5333732+09:00</timestamp>
+      <size>16132</size>
+      <ignore>true</ignore>
     </FileData>
   </files>
 </BuildOmitCheck>
