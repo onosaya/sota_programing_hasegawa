@@ -9,6 +9,7 @@ import jp.co.mysota.mymain;
 import jp.vstone.RobotLib.*;
 import jp.vstone.sotatalk.SpeechRecog.*;
 import jp.vstone.sotatalk.*;
+import jp.vstone.camera.*;
 
 
 public class main
@@ -57,6 +58,7 @@ public class main
 		public static SpeechRecog recog = new SpeechRecog(motion);
 		public static MotionAsSotaWish sotawish = new MotionAsSotaWish(motion);
 		public static RecogResult abortresult;
+		public static CRoboCamera robocam = new CRoboCamera("/dev/video0",motion);
 	}
 
 

@@ -5,15 +5,15 @@
   <files>
     <FileData>
       <path>jp\co\mysota\mymain.java</path>
-      <timestamp>2016-10-31T12:54:59.9033649+09:00</timestamp>
-      <size>7570</size>
+      <timestamp>2016-11-07T14:42:22.7191159+09:00</timestamp>
+      <size>8731</size>
       <ignore>true</ignore>
     </FileData>
     <FileData>
       <path>jp\co\mysota\rabit.java</path>
-      <timestamp>2016-10-31T13:10:44.4760065+09:00</timestamp>
-      <size>21172</size>
-      <ignore>false</ignore>
+      <timestamp>2016-11-01T11:08:32.5194513+09:00</timestamp>
+      <size>24958</size>
+      <ignore>true</ignore>
     </FileData>
     <FileData>
       <path>jp\co\mysota\mgirl.java</path>
@@ -26,6 +26,12 @@
       <timestamp>2016-10-31T12:23:55.5333732+09:00</timestamp>
       <size>16132</size>
       <ignore>true</ignore>
+    </FileData>
+    <FileData>
+      <path>jp\co\mysota\roudoku.java</path>
+      <timestamp>2016-11-10T12:02:23.5917155+09:00</timestamp>
+      <size>7513</size>
+      <ignore>false</ignore>
     </FileData>
   </files>
 </BuildOmitCheck>

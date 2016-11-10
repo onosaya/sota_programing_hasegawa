@@ -54,11 +54,19 @@
 			<parentPb i:nil="true" />
 			<type>RecogResult</type>
 		</MemberValueObject>
+		<MemberValueObject>
+			<initialize>(CRoboCamera)new CRoboCamera("/dev/video0",motion)</initialize>
+			<memberVariableLine>0</memberVariableLine>
+			<name>robocam</name>
+			<parentPb i:nil="true" />
+			<type>CRoboCamera</type>
+		</MemberValueObject>
 	</_globalVariables>
 	<_import xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
 		<d2p1:string>jp.vstone.RobotLib.*</d2p1:string>
 		<d2p1:string>jp.vstone.sotatalk.SpeechRecog.*</d2p1:string>
 		<d2p1:string>jp.vstone.sotatalk.*</d2p1:string>
+		<d2p1:string>jp.vstone.camera.*</d2p1:string>
 	</_import>
 	<_isDisableCollidionDetect>false</_isDisableCollidionDetect>
 	<_isSetAutoExecute>false</_isSetAutoExecute>
@@ -353,6 +361,7 @@
 				<d4p1:string>rabit.java</d4p1:string>
 				<d4p1:string>mgirl.java</d4p1:string>
 				<d4p1:string>kumonoito.java</d4p1:string>
+				<d4p1:string>roudoku.java</d4p1:string>
 			</javaClass>
 			<name>jp.co.mysota</name>
 			<resources xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
@@ -3480,7 +3489,7 @@
 				</uintID>
 			</MotSend>
 			<debugPort>8765</debugPort>
-			<host>192.168.1.48</host>
+			<host>192.168.1.43</host>
 			<password>edison00</password>
 			<platform>Edison</platform>
 			<rootPath>/home/root/</rootPath>
