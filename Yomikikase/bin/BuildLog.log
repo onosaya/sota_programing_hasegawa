@@ -1,26 +1,13 @@
 VstoneMagic Build&Execute Message Log
-BuildStart time:2016/11/10 12:02:26
-ビルドを開始します。
-C:\Program Files (x86)\VstoneMagic\jdk\bin\javac.exe  -d "C:\Users\hasegawa\Documents\GitHub\sota_programing_hasegawa\Yomikikase\bin"  -g  -cp ".;C:\Users\hasegawa\VstoneMagicData\jar\commons-codec-1.10.jar;C:\Users\hasegawa\VstoneMagicData\jar\core-2.2.jar;C:\Users\hasegawa\VstoneMagicData\jar\gson-2.6.1.jar;C:\Users\hasegawa\VstoneMagicData\jar\javase-2.2.jar;C:\Users\hasegawa\VstoneMagicData\jar\jna-4.1.0.jar;C:\Users\hasegawa\VstoneMagicData\jar\opencv-310.jar;C:\Users\hasegawa\VstoneMagicData\jar\SotaAppManager.jar;C:\Users\hasegawa\VstoneMagicData\jar\sotalib.jar;C:\Users\hasegawa\VstoneMagicData\jar\sotamotionlib.jar;C:\Users\hasegawa\VstoneMagicData\jar\SRClientHelper.jar"  -encoding UTF-8 "C:\Users\hasegawa\Documents\GitHub\sota_programing_hasegawa\Yomikikase\src\main\main.java" "C:\Users\hasegawa\Documents\GitHub\sota_programing_hasegawa\Yomikikase\src\jp\co\mysota\roudoku.java" 
+BuildStart time:2016/11/10 12:06:03
+ビルドの更新がありません。
 
-正常にコンパイルできました。
 
 jarファイルの作成
-マニフェストファイルを作成します。
-jarファイルを作成します。
-C:\Program Files (x86)\VstoneMagic\jdk\bin\jar.exe cvfm Yomikikase.jar Manifest.mf main jp\co\mysota
-マニフェストが追加されました
-main/を追加中です(入=0)(出=0)(0%格納されました)
-main/main$GlobalVariable.classを追加中です(入=1365)(出=677)(50%収縮されました)
-main/main.classを追加中です(入=2179)(出=1179)(45%収縮されました)
-jp/co/mysota/を追加中です(入=0)(出=0)(0%格納されました)
-jp/co/mysota/kumonoito.classを追加中です(入=12731)(出=4749)(62%収縮されました)
-jp/co/mysota/mgirl.classを追加中です(入=13403)(出=4811)(64%収縮されました)
-jp/co/mysota/mymain.classを追加中です(入=3038)(出=1575)(48%収縮されました)
-jp/co/mysota/rabit.classを追加中です(入=12144)(出=4879)(59%収縮されました)
-jp/co/mysota/roudoku.classを追加中です(入=2555)(出=1360)(46%収縮されました)
 
-jarファイルを作成しました。
+
+jarファイルの更新はありません
+
 
 送信ファイルの上書き確認
 
